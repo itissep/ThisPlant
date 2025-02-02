@@ -4,7 +4,7 @@ import SwiftUI
 struct ThisPlantAppApp: App {
     var body: some Scene {
         WindowGroup {
-            PlantRecognizerView()
+            PlantClassifierView()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .preferredColorScheme(.dark)
         }
