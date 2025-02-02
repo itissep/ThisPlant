@@ -8,7 +8,7 @@ struct BaseButtonStyle: ButtonStyle {
             .bold()
             .monospaced()
             .foregroundStyle(.background)
-            .frame(maxWidth: .infinity)
+            .frame(maxWidth: 300)
             .frame(height: Style.elementsHeight)
             .background(Color.accentColor)
             .clipShape(.rect(cornerRadius: Style.cornerRadius))
